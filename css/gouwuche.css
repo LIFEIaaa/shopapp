@@ -125,34 +125,38 @@
 	text-align: center;
 	position: relative;
 }
-.shuliang1{
-	color: #363636;
-	font-size: 0.2rem;
-	display: inline-block;
-	border-left: 1px solid #ACACAC;
-	border-right: 1px solid #acacac;
-	padding-right: 0.42rem;
-	padding-left: 0.39rem;
-	position: absolute;
-	top: 0;
-	left: 0.5rem;
-}
 .jian{
 	color: #D6D6D6;
 	font-size: 0.2rem;
-	position: absolute;
-	left: 0.17rem;
-	display: block;
-	top: -0.02rem;
+	float: left;
+	line-height: 0.58rem;
+	margin-left: 0.16rem;
 }
+.shuliang_xt{
+	width: 0.02rem;
+	height: 0.56rem;
+	background:#ACACAC;
+	float: left; 
+	margin-left: 0.17rem;
+}
+.shuliang1{
+	color: #363636;
+	font-size: 0.34rem;
+	line-height: 0.58rem;
+	float: left;
+	margin-left: 0.39rem;
+	font-weight: normal;
+	margin-right: 0.3rem;
+}
+
 .jia{
+	margin-left: 0.08rem;
+	font-size: 0.44rem;
+	float: left;
+	line-height: 0.45rem;
 	color: #666666;
-	font-size: 0.2rem;
-	position: absolute;
-	right: 0.14rem;
-	display: block;
-	top: -0.02rem;
 }
+
 .price{
 	font-size: 0.38rem;
 	color: #363636;
@@ -230,6 +234,7 @@
 	float: right;
 	font-weight: bold;
 	margin-top: 0.8rem;
+	font-weight: normal;
 }
 .huisekuai{
 	width: 100%;
@@ -280,15 +285,17 @@
 	float: left;
 	margin-left: 0.64rem;
 	margin-top: 0.45rem;
+	font-weight: normal;
 }
 .yunfei{
-	margin-left: 0.23rem;
+	margin-left: 0.63rem;
 }
 .heji_price{
 	font-size: 0.38rem;
 	color: #393939;
 	float: right;
 	margin-top: 0.45rem;
+	font-weight: normal;
 }
 .heji1,.heji_price1{
 	margin-top: 0.26rem;
@@ -312,6 +319,7 @@
 	font-size: 0.38rem;
 	color: #393939;
 	float: left;
+	font-weight: normal;
 }
 .wenhao{
 	font-size: 0.38rem;
@@ -322,6 +330,7 @@
 	font-size: 0.38rem;
 	color: #393939;
 	float: right;
+	font-weight: normal;
 }
 .guonei1{
 	height: 1.91rem;
@@ -344,6 +353,7 @@
 	color: #363636;
 	float: right;
 	margin-top: 0.34rem;
+	font-weight: normal;
 }
 .jiesuan_wz1{
 	margin-right: 6rem;
@@ -360,6 +370,7 @@
 	background: #fff;
 	float: left;
 	line-height: 1.17rem;
+	margin-bottom: 2.97rem;
 }
 .tubiao_djq{
 	width: 0.48rem;
@@ -387,7 +398,10 @@
 	border-bottom: 1px solid #B2B2B2;
 	float: left;
 	position: relative;
-	margin-bottom: 1.5rem;
+	background: #fff;
+	position: fixed;
+	bottom: 1.5rem;
+	left: 0;
 }
 .xuanze_js{
 	float: left;
@@ -414,18 +428,20 @@
 }
 .black{
 	width: 3rem;
-	height: 1.5rem;
+	height: 1.49rem;
 	background: #454545;
 	float: right;
 	position: absolute;
-	top: -2px;
+	top: -1px;
 	right: 0;
 	color: #fff;
 	font-size: 0.42rem;
 	text-align: center;
-	line-height: 1.5rem;
+	line-height: 1.49rem;
 	font-weight: bold;
 }
+
+
 #footer{
 	width: 100%;
 	height: 1.5rem;
@@ -433,6 +449,7 @@
 	position: fixed;
 	left: 0;
 	bottom: 0;
+	z-index: 999;
 }
 .footer_center{
 	width: 11.51rem;
@@ -441,12 +458,12 @@
 }
 .shouye_icon{
 	width: 0.84rem;
-	height: 1.01rem;
+	height: 1.5rem;
 	background-color: #fff;
 	margin-left: 0.38rem;
 	float: left;
 	text-align: center;
-	line-height: 0.45rem;
+	line-height: 0.5rem;
 }
 .shouye_icon2{
 	width: 1.1rem;
@@ -468,3 +485,5 @@
 	color: #979797;
 	font-size: 0.28rem;
 }
+
+

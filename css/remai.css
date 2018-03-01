@@ -232,8 +232,6 @@ body{
 	color: #999999;
 	float: left;
 	line-height: 0.57rem;
-	/* margin-right: 0.3rem; */
-
 }
 #footer{
 	width: 100%;
@@ -257,6 +255,7 @@ body{
 	margin-left: 0.38rem;
 	float: left;
 	text-align: center;
+	line-height: 0.5rem;
 }
 .shouye_icon2{
 	width: 1.1rem;
@@ -277,19 +276,4 @@ body{
 .shangcheng{
 	color: #979797;
 	font-size: 0.28rem;
-}
-
-.zhongjian{
-	width: 1.38rem;
-	height: 1.1rem;
-	background-color: #FF2844;
-	margin-left: 1.36rem;
-	float: left;
-	margin-top: 0.21rem;
-	border-radius: 0.4rem;
-	color: #fff;
-	line-height: 1.1rem;
-	text-align: center;
-	font-size: 0.6rem;
-	font-weight: bold;
 }

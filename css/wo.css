@@ -40,8 +40,14 @@ body{
 	margin-top: 0.92rem;
 	overflow: hidden;
 }
+.wo_touxiang{
+	width: 2rem;
+	height: 2rem;
+	margin-top: -0.02rem;
+	margin-left: -0.03rem;
+}
 .mingcheng{
-	font-size: 0.24rem;
+	font-size: 0.38rem;
 	color: #4E4E4E;
 	float: left;
 	margin-top: 1.65rem;
@@ -54,7 +60,7 @@ body{
 	background-color: #fff;
 }
 .shoucang_center{
-	height: 100%;
+	/* height: 100%; */
 	margin: 0 auto;
 }
 .shoucang1{
@@ -164,6 +170,8 @@ body{
 .about{
 	margin-bottom: 1.5rem;
 }
+
+
 #footer{
 	width: 100%;
 	height: 1.5rem;
@@ -171,6 +179,7 @@ body{
 	position: fixed;
 	left: 0;
 	bottom: 0;
+	z-index: 999;
 }
 .footer_center{
 	width: 11.51rem;
@@ -179,12 +188,12 @@ body{
 }
 .shouye_icon{
 	width: 0.84rem;
-	height: 1.01rem;
+	height: 1.5rem;
 	background-color: #fff;
 	margin-left: 0.38rem;
 	float: left;
 	text-align: center;
-	line-height: 0.45rem;
+	line-height: 0.5rem;
 }
 .shouye_icon2{
 	width: 1.1rem;
